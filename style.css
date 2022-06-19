@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-size: 1300px;
+}
+
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.75em;
+    color: white;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+li {
+    font-size: 1.25em;
+    list-style: none;
+}
+
+button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover {
+    background-color: rgb(86, 8, 158);
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo {
+    margin: 0;
+    height: 120px;
+    padding: 10px 0px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 110px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #F27405;
+}
+
+header a:hover {
+    color: #49D3F2;
+}
+
+#introduccion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("Images/miami_gp-pagina-principal-web_1_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#introduccion h1 {
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#pilotos .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#carreras {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+
+}
+
+#carreras h2 {
+    margin-top: 0px;
+    font-size: 3.2em;
+}
+
+#carreras .container {
+    padding: 150px 12px;
+}
+
+#carreras p {
+    display: none;
+    text-align: left;
+}
+
+#carreras .carta {
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+.carta:first-child {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/Canadian\ GP.jpg");
+
+}
+
+.carta:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/Silverstone\ GP2.jpg");
+
+}
+
+.carta:nth-child(3) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/AustriaGP.jpg");
+
+}
+
+.carta:nth-child(4) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/FranceGP.jpg");
+
+}
+
+.carta:nth-child(5) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/Hungary\ GP.jpg");
+
+}
+
+.carta:nth-child(6) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/BelgianGP.jpg");
+
+}
+
+.carta:nth-child(7) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/Dutch\ GP.jpg");
+
+}
+
+.carta:nth-child(8) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/Italian\ GP.jpg");
+
+}
+
+.carta:nth-child(9) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/Singapore\ GP.jpg");
+
+}
+
+.carta:nth-child(10) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/Japanese\ GP.jpg");
+
+}
+
+.carta:nth-child(11) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/UnitedStates\ GP.jpg");
+
+}
+
+.carta:nth-child(12) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/MexicanGP.jpg");
+
+}
+
+.carta:nth-child(13) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/Brazilian\ GP.jpg");
+
+}
+
+.carta:last-child {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url("Images/Abu\ Dhabi\ GP.jpg");
+
+}
+
+#MTC .container {
+    text-align: center;
+    padding: 100px 12px;
+}
+
+#MTC img {
+    width: 80%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#MTC li {
+    margin: 16px 0px;
+    font-weight: bold;
+    color: #F27405;
+}
+
+#MTC iframe {
+    width: 100%;
+    padding: 0px 20px;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+}
+
+footer p {
+    margin: 0;
+    color: #f27405;
+    padding: 14px;
+}
+
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 720px) {
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+
+    }
+
+    header .logo {
+        height: 80px;
+    }
+
+    #pilotos .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #pilotos .LN{
+        width: 50%;
+        text-align: initial;
+        padding-left: 30px;
+        max-width: 600px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #pilotos .img-container{
+        background-image: url('Images/LN.webp');
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 200px;
+    }
+
+
+    #carreras .imagenes {
+        display: flex;
+        justify-content: center;
+    }
+
+    #carreras p {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    #carreras h3 {
+        margin-top: 0;
+    }
+
+    #carreras .carta {
+        padding: 15px;
+    }
+
+    footer .container {
+        justify-content: flex-end;
+    }
+
+}
