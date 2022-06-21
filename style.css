@@ -1,374 +1,341 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-    background-size: 1300px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  background-size: 1300px;
 }
 
-
 h1 {
-    font-size: 3.5em;
+  font-size: 3.5em;
 }
 
 h2 {
-    font-size: 2.7em;
-    padding-bottom: 20px;
+  font-size: 2.7em;
+  padding-bottom: 20px;
 }
 
 h3 {
-    font-size: 1.75em;
-    color: white;
+  font-size: 1.75em;
+  color: white;
 }
 
 p {
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 li {
-    font-size: 1.25em;
-    list-style: none;
+  font-size: 1.25em;
+  list-style: none;
 }
 
 .container {
-    max-width: 1000px;
-    margin: auto;
+  max-width: 1000px;
+  margin: auto;
 }
 
 header {
-    background-color: rgb(245, 245, 245);
+  background-color: rgb(245, 245, 245);
 }
 
 header .logo {
-    margin: 0;
-    height: 120px;
-    padding: 10px 0px;
+  margin: 0;
+  height: 120px;
+  padding: 10px 0px;
 }
 
 header .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header nav {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 header a {
-    padding: 5px 110px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #F27405;
+  padding: 5px 110px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #f27405;
 }
 
 header a:hover {
-    color: #49D3F2;
+  color: #49d3f2;
 }
 
 #introduccion {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("Images/miami_gp-pagina-principal-web_1_.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Images/miami_gp-pagina-principal-web_1_.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #introduccion h1 {
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-
 
 #pilotos .container {
-    text-align: center;
-    padding: 200px 12px;
+  text-align: center;
+  padding: 200px 12px;
 }
 
-#pilotos h2{
-    color: #F27405;
+#pilotos h2 {
+  color: #f27405;
 }
 
 #carreras {
-    background-color: rgb(40, 40, 40);
-    color: white;
-    text-align: center;
-
+  background-color: rgb(40, 40, 40);
+  color: white;
+  text-align: center;
 }
 
 #carreras h2 {
-    margin-top: 0px;
-    font-size: 3.2em;
+  margin-top: 0px;
+  font-size: 3.2em;
 }
 
 #carreras .container {
-    padding: 150px 12px;
+  padding: 150px 12px;
 }
 
 #carreras p {
-    display: none;
-    text-align: left;
+  display: none;
+  text-align: left;
 }
 
 #carreras .carta {
-    background-size: cover;
-    background-position: center center;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 15px;
-
+  background-size: cover;
+  background-position: center center;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
 }
 .countdown {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 
-.dia, .hora, .minuto, .segundo {
-    font-size: 2.5rem;
+.dia,
+.hora,
+.minuto,
+.segundo {
+  font-size: 2.5rem;
 }
 
-.race-status{
-    padding-top: 20px;
-    font-size: 2rem;
-    justify-content: center;
+.race-status {
+  padding-top: 20px;
+  font-size: 2rem;
+  justify-content: center;
 }
 
 .carta:first-child {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/Canadian\ GP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/Canadian\ GP.jpg");
 }
 
 .carta:nth-child(2) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/Silverstone\ GP2.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/Silverstone\ GP2.jpg");
 }
 
 .carta:nth-child(3) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/AustriaGP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/AustriaGP.jpg");
 }
 
 .carta:nth-child(4) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/FranceGP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/FranceGP.jpg");
 }
 
 .carta:nth-child(5) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/Hungary\ GP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/Hungary\ GP.jpg");
 }
 
 .carta:nth-child(6) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/BelgianGP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/BelgianGP.jpg");
 }
 
 .carta:nth-child(7) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/Dutch\ GP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/Dutch\ GP.jpg");
 }
 
 .carta:nth-child(8) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/Italian\ GP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/Italian\ GP.jpg");
 }
 
 .carta:nth-child(9) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/Singapore\ GP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/Singapore\ GP.jpg");
 }
 
 .carta:nth-child(10) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/Japanese\ GP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/Japanese\ GP.jpg");
 }
 
 .carta:nth-child(11) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/UnitedStates\ GP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/UnitedStates\ GP.jpg");
 }
 
 .carta:nth-child(12) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/MexicanGP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/MexicanGP.jpg");
 }
 
 .carta:nth-child(13) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/Brazilian\ GP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/Brazilian\ GP.jpg");
 }
 
 .carta:last-child {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("Images/Abu\ Dhabi\ GP.jpg");
-
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("Images/Abu\ Dhabi\ GP.jpg");
 }
 
 #MTC .container {
-    text-align: center;
-    padding: 100px 12px;
+  text-align: center;
+  padding: 100px 12px;
 }
 
 #MTC h3 {
-    margin: 16px 0px;
-    font-weight: bold;
-    color: #F27405;
+  margin: 16px 0px;
+  font-weight: bold;
+  color: #f27405;
 }
 
-.carousel-container{
-    width: 80%;
-    margin: auto;
-    border-radius: 90%;
-    overflow: hidden;
+.carousel-container {
+  width: 80%;
+  margin: auto;
+  border-radius: 90%;
+  overflow: hidden;
 }
-.carousel-slide{
-    display: flex;
-    width: 100%;
-    height: 500px;
-}
-
-#MTC button{
-    background-color: white;
-    color: black;
-    border-style: hidden;
+.carousel-slide {
+  display: flex;
+  width: 100%;
+  height: 500px;
 }
 
-#MTC button:hover{
-    background-color: #F27405;
-    color: white;
+#MTC button {
+  background-color: white;
+  color: black;
+  border-style: hidden;
+}
+
+#MTC button:hover {
+  background-color: #f27405;
+  color: white;
 }
 
 footer {
-    background-color: rgb(230, 230, 230);
+  background-color: rgb(230, 230, 230);
 }
 
 footer p {
-    margin: 0;
-    color: #f27405;
-    padding: 14px;
+  margin: 0;
+  color: #f27405;
+  padding: 14px;
 }
 
 footer .container {
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 @media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
 
-    header {
-        position: fixed;
-        width: 100%;
-    }
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    header .container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
 
-    header nav {
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
-    }
+  header .logo {
+    height: 80px;
+  }
 
-    header .logo {
-        height: 80px;
-    }
+  #pilotos .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-    #pilotos .container{
-        display: flex;
-        justify-content: space-evenly;
-    }
+  #pilotos .info-piloto {
+    width: 90%;
+    text-align: justify;
+    padding-left: 30px;
+    max-width: 800px;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    #pilotos .info-piloto{
-        width: 90%;
-        text-align: justify;
-        padding-left: 30px;
-        max-width: 800px;
-        flex-direction: column;
-        justify-content: center;
-    }
+  #pilotos .img-containerLN {
+    background-image: url("Images/LN.webp");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 200px;
+  }
 
-    #pilotos .img-containerLN{
-        background-image: url('Images/LN.webp');
-        background-size: cover;
-        background-position: center center;
-        height: 300px;
-        width: 200px;
-    }
+  #pilotos .img-containerDR {
+    background-image: url("Images/DR.webp");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 200px;
+  }
 
-    #pilotos .img-containerDR{
-        background-image: url('Images/DR.webp');
-        background-size: cover;
-        background-position: center center;
-        height: 300px;
-        width: 200px;
-    }
+  #carreras p {
+    display: flex;
+    margin-bottom: 30px;
+  }
 
-    #carreras p {
-        display: flex;
-        margin-bottom: 30px;
-    }
+  #carreras h3 {
+    margin-top: 0;
+  }
 
-    #carreras h3 {
-        margin-top: 0;
-    }
+  #carreras .carta {
+    padding: 15px;
+  }
 
-    #carreras .carta {
-        padding: 15px;
-    }
-
-    footer .container {
-        justify-content: flex-end;
-    }
-
+  footer .container {
+    justify-content: flex-end;
+  }
 }
