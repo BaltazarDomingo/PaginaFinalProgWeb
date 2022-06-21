@@ -38,21 +38,6 @@ li {
     list-style: none;
 }
 
-button {
-    font-size: 1em;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: white;
-    background-color: blueviolet;
-}
-
-button:hover {
-    background-color: rgb(86, 8, 158);
-}
-
 .container {
     max-width: 1000px;
     margin: auto;
@@ -119,6 +104,10 @@ header a:hover {
     padding: 200px 12px;
 }
 
+#pilotos h2{
+    color: #F27405;
+}
+
 #carreras {
     background-color: rgb(40, 40, 40);
     color: white;
@@ -147,6 +136,21 @@ header a:hover {
     margin: 20px;
     border-radius: 15px;
 
+}
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.dia, .hora, .minuto, .segundo {
+    font-size: 2.5rem;
+}
+
+.race-status{
+    padding-top: 20px;
+    font-size: 2rem;
+    justify-content: center;
 }
 
 .carta:first-child {
@@ -252,21 +256,33 @@ header a:hover {
     padding: 100px 12px;
 }
 
-#MTC img {
-    width: 80%;
-    margin-right: 20px;
-    border-radius: 50%;
-}
-
-#MTC li {
+#MTC h3 {
     margin: 16px 0px;
     font-weight: bold;
     color: #F27405;
 }
 
-#MTC iframe {
+.carousel-container{
+    width: 80%;
+    margin: auto;
+    border-radius: 90%;
+    overflow: hidden;
+}
+.carousel-slide{
+    display: flex;
     width: 100%;
-    padding: 0px 20px;
+    height: 500px;
+}
+
+#MTC button{
+    background-color: white;
+    color: black;
+    border-style: hidden;
+}
+
+#MTC button:hover{
+    background-color: #F27405;
+    color: white;
 }
 
 footer {
@@ -302,7 +318,6 @@ footer .container {
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
-
     }
 
     header .logo {
@@ -314,16 +329,16 @@ footer .container {
         justify-content: space-evenly;
     }
 
-    #pilotos .LN{
-        width: 50%;
-        text-align: initial;
+    #pilotos .info-piloto{
+        width: 90%;
+        text-align: justify;
         padding-left: 30px;
-        max-width: 600px;
+        max-width: 800px;
         flex-direction: column;
         justify-content: center;
     }
 
-    #pilotos .img-container{
+    #pilotos .img-containerLN{
         background-image: url('Images/LN.webp');
         background-size: cover;
         background-position: center center;
@@ -331,10 +346,12 @@ footer .container {
         width: 200px;
     }
 
-
-    #carreras .imagenes {
-        display: flex;
-        justify-content: center;
+    #pilotos .img-containerDR{
+        background-image: url('Images/DR.webp');
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 200px;
     }
 
     #carreras p {
