@@ -55,6 +55,7 @@ header .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: calc(+10);
 }
 
 header nav {
@@ -236,6 +237,7 @@ header a:hover {
   margin: auto;
   border-radius: 90%;
   overflow: hidden;
+  z-index: calc(-10);
 }
 .carousel-slide {
   display: flex;
@@ -279,7 +281,7 @@ footer .container {
 
   header .container {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   header nav {
